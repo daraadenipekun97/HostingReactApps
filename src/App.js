@@ -20,7 +20,7 @@ function App() {
   return (
     <>
       <Provider store={store}>
-        <BrowserRouter>
+        <BrowserRouter basename = "/HostingReactApps">
           <Routes>
             <Route path="/" element={<Login />} />
             <Route path="home" element={<Home />}>
