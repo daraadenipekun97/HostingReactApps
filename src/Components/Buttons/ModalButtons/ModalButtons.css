@@ -1,0 +1,45 @@
+.modal-btn-wrapper {
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.modal-btn-wrapper:hover,
+.modal-btn-wrapper:focus {
+  background-color: #313a58;
+  cursor: pointer;
+}
+
+.download-btn {
+  border-radius: 50%;
+  background-color: #374151;
+  color: white;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1.5rem;
+}
+.download-btn:hover {
+  cursor: pointer;
+  background-color: #4a4b4d;
+}

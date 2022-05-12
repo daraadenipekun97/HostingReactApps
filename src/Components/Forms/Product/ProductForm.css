@@ -1,0 +1,72 @@
+.m-select {
+  margin-bottom: 20px;
+}
+
+.grid-item {
+  padding-bottom: 0px !important;
+  /* padding-top: 0px !important; */
+}
+
+.advanced-setting {
+  cursor: pointer;
+  color: #223372;
+}
+.advanced-setting:hover {
+  background-color: aliceblue;
+}
+.adornment-input {
+  padding-left: 0px !important;
+}
+
+*::-webkit-scrollbar {
+  width: 4px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #ddd;
+  border-radius: 20px;
+  /* comment visibilty  this to display: scrollbar; */
+  visibility: hidden;
+}
+.drag-image-wrapper {
+  /* border: solid; */
+  padding: 100px 20px 100px 20px;
+}
+
+.drag-image-box {
+  width: 250px;
+  height: 250px;
+  background: rgba(245, 246, 250, 0.8);
+  border-radius: 13px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+}
+
+.drag-image-box:hover {
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 0px 1px;
+}
+
+.image-icon-div {
+  /* border: solid; */
+  /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+  text-align: center;
+}
+.drag-text {
+  padding: 0px;
+  margin: 0px;
+}
+
+.file-upload-text {
+  font-size: 1rem;
+  color: #223372;
+}
+
+.file-upload-text:hover {
+  cursor: pointer;
+}

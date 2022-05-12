@@ -1,0 +1,7 @@
+.home-wrapper {
+  position: relative;
+  height: 100vh;
+  /* left: 75px; */
+  margin-left: auto;
+  display: flex;
+}

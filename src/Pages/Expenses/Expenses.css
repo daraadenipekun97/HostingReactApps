@@ -1,0 +1,92 @@
+.expenses-header {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+  margin-bottom: 1rem;
+  justify-content: flex-start;
+}
+.left-expenses-header-content {
+  display: flex;
+  /* border: solid; */
+  flex-direction: row;
+}
+.expenses-select {
+  display: flex;
+  /* border: solid; */
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.expenses-select p {
+  margin: 0px;
+  padding: 0px;
+  margin-right: 1rem;
+  color: #6b7280;
+}
+.expenses-select select {
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  padding: 0.8rem 0.8rem;
+  outline: none;
+  margin-right: 1rem;
+  background-color: #f5f6fa;
+}
+.total-stock-value {
+  /* border: solid; */
+}
+
+.total-stock-value p {
+  font-size: 1rem;
+  color: #223372;
+  padding: 0px;
+  margin: 0px;
+}
+
+.total-stock-value h5 {
+  font-weight: 900;
+  color: #223372;
+}
+
+.expenses-header-btns {
+  /* border: 1px solid green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  flex-direction: row;
+}
+
+@media (max-width: 426px) {
+  .left-expenses-header-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .expenses-select {
+    display: block;
+    /* border: solid; */
+  }
+  .expenses-select p {
+    margin-right: 0rem !important;
+    margin-bottom: 10px;
+  }
+  .expenses-select select {
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    padding: 0.8rem 0.8rem;
+    outline: none;
+    margin-right: 0rem !important;
+    background-color: #f5f6fa;
+    margin-bottom: 10px;
+  }
+  .expenses-header-btns {
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    flex-direction: column;
+    gap: 10px;
+    /* border: solid; */
+  }
+}

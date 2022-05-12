@@ -1,0 +1,82 @@
+.sales-header {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+  margin-bottom: 1rem;
+  justify-content: flex-start;
+}
+.left-sales-header-content {
+  display: flex;
+  /* border: solid; */
+  flex-direction: row;
+}
+.sales-select {
+  display: flex;
+  /* border: solid; */
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.sales-select p {
+  margin: 0px;
+  padding: 0px;
+  margin-right: 1rem;
+  color: #6b7280;
+}
+.sales-select select {
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  padding: 0.8rem 0.8rem;
+  outline: none;
+  margin-right: 1rem;
+  background-color: #f5f6fa;
+}
+.total-stock-value {
+  /* border: solid; */
+}
+
+.total-stock-value p {
+  font-size: 1rem;
+  color: #223372;
+  padding: 0px;
+  margin: 0px;
+}
+
+.total-stock-value h5 {
+  font-weight: 900;
+  color: #223372;
+}
+
+.sales-header-btns {
+  /* border: 1px solid green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+}
+
+@media (max-width: 426px) {
+  .left-sales-header-content {
+    display: flex;
+    border: solid;
+    flex-direction: column;
+  }
+
+  .sales-select {
+    display: block;
+    /* border: solid; */
+  }
+  .sales-select p {
+    margin-right: 0rem !important;
+    margin-bottom: 10px;
+  }
+  .sales-select select {
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    padding: 0.8rem 0.8rem;
+    outline: none;
+    margin-right: 0rem !important;
+    background-color: #f5f6fa;
+    margin-bottom: 10px;
+  }
+}
